@@ -6,7 +6,6 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\bin\Debu
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\bin\Debug\netcoreapp3.1\AutoTestFramework.pdb
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\bin\Debug\netcoreapp3.1\WebDriver.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\obj\Debug\netcoreapp3.1\AutoTestFramework.csproj.AssemblyReference.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\obj\Debug\netcoreapp3.1\AutoTestFramework.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\obj\Debug\netcoreapp3.1\AutoTestFramework.AssemblyInfoInputs.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\obj\Debug\netcoreapp3.1\AutoTestFramework.AssemblyInfo.cs
@@ -17,3 +16,4 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\obj\Debu
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\obj\Debug\netcoreapp3.1\AutoTestFramework.genruntimeconfig.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\bin\Debug\netcoreapp3.1\SeleniumExtras.PageObjects.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\bin\Debug\netcoreapp3.1\nunit.framework.dll

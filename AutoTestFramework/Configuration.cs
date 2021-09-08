@@ -34,5 +34,10 @@
                 }
             }
         }
+
+        public static class AlertMessages
+        {
+            public static string SuccessfulLogin = "Succesful login!";
+        }
     }
 }
