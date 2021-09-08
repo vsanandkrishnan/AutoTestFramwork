@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoTestFramework", "AutoTestFramework\AutoTestFramework.csproj", "{AAF4A420-0805-455F-9399-2D09F57F9CC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "AutoTestFramework\WebApplication.csproj", "{AAF4A420-0805-455F-9399-2D09F57F9CC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{6FE384FB-665F-4DE6-9D9E-C15302443205}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{6FE384FB-665F-4DE6-9D9E-C15302443205}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

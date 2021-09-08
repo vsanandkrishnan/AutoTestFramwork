@@ -21,15 +21,25 @@ namespace Tests
         public void ValidLogin()
         {
             NavigateTo.LoginFormThroughTheMenu();
-            Messages.GreenMessage("Successfully Navigated to the Login form Through Menu");
-            Thread.Sleep(3000);
             Actions.FieldLoginForm(Configuration.Credentials.Valid.Username, Configuration.Credentials.Valid.Password, Configuration.Credentials.Valid.Password);
-            Thread.Sleep(3000);
             alert = Driver.driver.SwitchTo().Alert();
-            Assert.AreEqual(Configuration.AlertMessages.SuccessfulLogin, alert.Text);
 
+            //Setting Up Assert
+            Assert.AreEqual(Configuration.AlertMessages.SuccessfulLogin, alert.Text);
             alert.Accept();
 
+        }
+
+        [Test]
+        public void InvalidLogin()
+        {
+            NavigateTo.LoginFormThroughTheMenu();
+            Actions.FieldLoginForm(Configuration.Credentials.Invalid.Username.ThirteenCharacters, Configuration.Credentials.Invalid.Password.InvalidPassWord, Configuration.Credentials.Invalid.Password.InvalidRepeatPassword);
+            alert = Driver.driver.SwitchTo().Alert();
+
+            //Setting Up Assert
+            Assert.AreEqual(Configuration.AlertMessages.Invalid14CharLogin, alert.Text);
+            alert.Accept();
         }
 
         [TearDown]

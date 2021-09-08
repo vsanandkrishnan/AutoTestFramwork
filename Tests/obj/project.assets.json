@@ -1283,7 +1283,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "AutoTestFramework/1.0.0": {
+      "WebApplication/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -1295,10 +1295,10 @@
           "Selenium.WebDriver.ChromeDriver": "93.0.4577.1500"
         },
         "compile": {
-          "bin/placeholder/AutoTestFramework.dll": {}
+          "bin/placeholder/WebApplication.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AutoTestFramework.dll": {}
+          "bin/placeholder/WebApplication.dll": {}
         }
       }
     }
@@ -5055,18 +5055,18 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "AutoTestFramework/1.0.0": {
+    "WebApplication/1.0.0": {
       "type": "project",
-      "path": "../AutoTestFramework/AutoTestFramework.csproj",
-      "msbuildProject": "../AutoTestFramework/AutoTestFramework.csproj"
+      "path": "../AutoTestFramework/WebApplication.csproj",
+      "msbuildProject": "../AutoTestFramework/WebApplication.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "AutoTestFramework >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "NUnit >= 3.13.2",
       "NUnit3TestAdapter >= 3.17.0",
+      "WebApplication >= 1.0.0",
       "coverlet.collector >= 3.0.2"
     ]
   },
@@ -5097,8 +5097,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\AutoTestFramework.csproj": {
-              "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\AutoTestFramework.csproj"
+            "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\WebApplication.csproj": {
+              "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\WebApplication.csproj"
             }
           }
         }

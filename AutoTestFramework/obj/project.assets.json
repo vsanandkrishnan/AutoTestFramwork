@@ -3409,9 +3409,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\AutoTestFramework.csproj",
-      "projectName": "AutoTestFramework",
-      "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\AutoTestFramework.csproj",
+      "projectUniqueName": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\WebApplication.csproj",
+      "projectName": "WebApplication",
+      "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\WebApplication.csproj",
       "packagesPath": "C:\\Users\\AnandKrishnan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\obj\\",
       "projectStyle": "PackageReference",

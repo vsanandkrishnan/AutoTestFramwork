@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AutoTestFramework\AutoTestFramework.csproj" />
+    <ProjectReference Include="..\AutoTestFramework\WebApplication.csproj" />
   </ItemGroup>
 
 </Project>

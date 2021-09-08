@@ -1,9 +1,5 @@
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\testhost.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\AutoTestFramework.deps.json
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\AutoTestFramework.runtimeconfig.json
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\AutoTestFramework.runtimeconfig.dev.json
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\AutoTestFramework.exe
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\testhost.exe
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
@@ -96,8 +92,6 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\AutoTestFramework.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\AutoTestFramework.pdb
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.AssemblyReference.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\obj\Debug\netcoreapp3.1\Tests.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\obj\Debug\netcoreapp3.1\Tests.AssemblyInfoInputs.cache
@@ -107,3 +101,9 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\obj\Debug\netcoreapp
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\obj\Debug\netcoreapp3.1\Tests.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\obj\Debug\netcoreapp3.1\Tests.pdb
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\obj\Debug\netcoreapp3.1\Tests.genruntimeconfig.cache
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\WebApplication.deps.json
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\WebApplication.runtimeconfig.json
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\WebApplication.runtimeconfig.dev.json
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\WebApplication.exe
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\WebApplication.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\WebApplication.pdb

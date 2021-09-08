@@ -25,6 +25,8 @@
 
                 public static class Password
                 {
+                    public static string InvalidPassWord = "1234567890";
+                    public static string InvalidRepeatPassword = "!@#$%^&*";
 
                 }
 
@@ -38,6 +40,7 @@
         public static class AlertMessages
         {
             public static string SuccessfulLogin = "Succesful login!";
+            public static string Invalid14CharLogin = "User Id should not be empty / length be between 5 to 12";
         }
     }
 }
