@@ -17,15 +17,13 @@ namespace AutoTestFramework
 
             Thread.Sleep(3000);
 
-            Driver.Driver.driver.Navigate().GoToUrl("https://testing.todorvachev.com/");
-
-            NavigateTo.LoginFormThroughThePost();
-
-            Messages.GreenMessage("Successfully Navigated to the Login form Through Post");
+            Actions.FieldLoginForm(Configuration.Credentials.Valid.Username, Configuration.Credentials.Valid.Password, Configuration.Credentials.Valid.Password);
 
             Thread.Sleep(3000);
 
             Driver.Driver.driver.Quit();
+
+           
         }
     }
 }
