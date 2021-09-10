@@ -1,5 +1,8 @@
 ﻿using AutoTestFramework.UIElements;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
+using System;
 
 namespace AutoTestFramework
 {
@@ -19,6 +22,12 @@ namespace AutoTestFramework
             lsPost.PasswordField.SendKeys(password);
             lsPost.RepeatPasswordField.SendKeys(repeatPassword);
             lsPost.LoginButton.Click();
+        }
+
+        public static void WaitForElement (IWebDriver driver,IWebElement element, int seconds=10,bool throwException=false)
+        {
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(seconds));
+            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible((By)element));
         }
     }
 }

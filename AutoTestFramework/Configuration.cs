@@ -32,6 +32,8 @@
 
                 public static class Email
                 {
+                    public static string InvalidEmail = "12345@gmail.com";
+                    public static string InvalidEmail2 = "12345@gmail.com";
 
                 }
             }
