@@ -13,7 +13,7 @@ namespace Tests
         [SetUp]
         public void Initialize()
         {
-            Actions.InitializeDriver();
+            Helper.InitializeDriver();
 
         }
 
@@ -21,7 +21,7 @@ namespace Tests
         public void ValidLogin()
         {
             NavigateTo.LoginFormThroughTheMenu();
-            Actions.FieldLoginForm(Configuration.Credentials.Valid.Username, Configuration.Credentials.Valid.Password, Configuration.Credentials.Valid.Password);
+            Helper.FieldLoginForm(Configuration.Credentials.Valid.Username, Configuration.Credentials.Valid.Password, Configuration.Credentials.Valid.Password);
             alert = Driver.driver.SwitchTo().Alert();
 
             //Setting Up Assert
@@ -34,7 +34,7 @@ namespace Tests
         public void InvalidLogin()
         {
             NavigateTo.LoginFormThroughTheMenu();
-            Actions.FieldLoginForm(Configuration.Credentials.Invalid.Username.ThirteenCharacters, Configuration.Credentials.Invalid.Password.InvalidPassWord, Configuration.Credentials.Invalid.Password.InvalidRepeatPassword);
+            Helper.FieldLoginForm(Configuration.Credentials.Invalid.Username.ThirteenCharacters, Configuration.Credentials.Invalid.Password.InvalidPassWord, Configuration.Credentials.Invalid.Password.InvalidRepeatPassword);
             alert = Driver.driver.SwitchTo().Alert();
 
             //Setting Up Assert

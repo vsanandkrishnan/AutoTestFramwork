@@ -9,7 +9,6 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\bin\Debu
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\bin\Debug\netcoreapp3.1\nunit.framework.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\bin\Debug\netcoreapp3.1\WebDriver.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\obj\Debug\netcoreapp3.1\WebApplication.csproj.AssemblyReference.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\obj\Debug\netcoreapp3.1\WebApplication.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\obj\Debug\netcoreapp3.1\WebApplication.AssemblyInfoInputs.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\obj\Debug\netcoreapp3.1\WebApplication.AssemblyInfo.cs
