@@ -1,6 +1,7 @@
 ﻿using AutoTestFramework;
 using AutoTestFramework.Driver;
 using AutoTestFramework.UIElements;
+using Microsoft.Edge.SeleniumTools;
 using NUnit.Framework;
 using OpenQA.Selenium.Chrome;
 
@@ -13,8 +14,7 @@ namespace Tests
         [SetUp]
         public void SetUp()
         {
-            Driver.driver = new ChromeDriver();
-            Driver.driver.Navigate().GoToUrl(Configuration.BASE_URL);
+            Helper.InitializeDriver("edge");
 
         }
 

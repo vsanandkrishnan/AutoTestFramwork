@@ -8,11 +8,13 @@
     ".NETCoreApp,Version=v3.1": {
       "Tests/1.0.0": {
         "dependencies": {
+          "Microsoft.Edge.SeleniumTools": "3.141.2",
           "Microsoft.NET.Test.Sdk": "16.9.4",
           "NUnit": "3.13.2",
           "NUnit.ConsoleRunner": "3.12.0",
           "NUnit3TestAdapter": "3.17.0",
           "ReportUnit": "1.2.1",
+          "Selenium.Firefox.WebDriver": "0.27.0",
           "WebApplication": "1.0.0",
           "coverlet.collector": "3.0.2"
         },
@@ -92,6 +94,17 @@
           "lib/netstandard1.3/Microsoft.DotNet.InternalAbstractions.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Edge.SeleniumTools/3.141.2": {
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Edge.SeleniumTools.dll": {
+            "assemblyVersion": "3.141.2.0",
+            "fileVersion": "3.141.2.0"
           }
         }
       },
@@ -430,6 +443,7 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
+      "Selenium.Firefox.WebDriver/0.27.0": {},
       "Selenium.Support/3.141.0": {
         "dependencies": {
           "Selenium.WebDriver": "3.141.0"
@@ -900,9 +914,11 @@
           "DotNetSeleniumExtras.PageObjects": "3.11.0",
           "DotNetSeleniumExtras.PageObjects.Core": "3.12.0",
           "DotNetSeleniumExtras.WaitHelpers": "3.11.0",
+          "Microsoft.Edge.SeleniumTools": "3.141.2",
           "NUnit": "3.13.2",
           "NUnit.ConsoleRunner": "3.12.0",
           "ReportUnit": "1.2.1",
+          "Selenium.Firefox.WebDriver": "0.27.0",
           "Selenium.Support": "3.141.0",
           "Selenium.WebDriver": "3.141.0",
           "Selenium.WebDriver.ChromeDriver": "93.0.4577.1500"
@@ -967,6 +983,13 @@
       "sha512": "sha512-AAguUq7YyKk3yDWPoWA8DrLZvURxB/LrDdTn1h5lmPeznkFUpfC3p459w5mQYQE0qpquf/CkSQZ0etiV5vRHFA==",
       "path": "microsoft.dotnet.internalabstractions/1.0.0",
       "hashPath": "microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.Edge.SeleniumTools/3.141.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8wEND69I0C1IBqQ/+niwYAsY+tGZH8aHU2hxXGFbdy96t90TMbuxq9sQFIPbDXn0jB9VERs1otY5iOFRB+1o6g==",
+      "path": "microsoft.edge.seleniumtools/3.141.2",
+      "hashPath": "microsoft.edge.seleniumtools.3.141.2.nupkg.sha512"
     },
     "Microsoft.NET.Test.Sdk/16.9.4": {
       "type": "package",
@@ -1072,6 +1095,13 @@
       "sha512": "sha512-c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "path": "runtime.native.system/4.3.0",
       "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
+    },
+    "Selenium.Firefox.WebDriver/0.27.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HwCaTaa+snzkLF7ZVaxKSmdttKm+KXT7HOY8c1q8p9E7x05+WHqw5XaZjUGFytVT1+0FkgUoH/u/I+csPLeJAg==",
+      "path": "selenium.firefox.webdriver/0.27.0",
+      "hashPath": "selenium.firefox.webdriver.0.27.0.nupkg.sha512"
     },
     "Selenium.Support/3.141.0": {
       "type": "package",

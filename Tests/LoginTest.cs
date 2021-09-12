@@ -13,7 +13,7 @@ namespace Tests
         [SetUp]
         public void Initialize()
         {
-            Helper.InitializeDriver();
+            Helper.InitializeDriver("edge");
 
         }
 

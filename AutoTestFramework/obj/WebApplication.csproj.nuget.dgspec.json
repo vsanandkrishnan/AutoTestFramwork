@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[3.11.0, )"
             },
+            "Microsoft.Edge.SeleniumTools": {
+              "target": "Package",
+              "version": "[3.141.2, )"
+            },
             "NUnit": {
               "target": "Package",
               "version": "[3.13.2, )"
@@ -63,6 +67,10 @@
             "ReportUnit": {
               "target": "Package",
               "version": "[1.2.1, )"
+            },
+            "Selenium.Firefox.WebDriver": {
+              "target": "Package",
+              "version": "[0.27.0, )"
             },
             "Selenium.Support": {
               "target": "Package",

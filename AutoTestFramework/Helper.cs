@@ -4,15 +4,36 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Interactions;
 using System;
+using OpenQA.Selenium.Firefox;
+using Microsoft.Edge.SeleniumTools;
 
 namespace AutoTestFramework
 {
     public static class Helper
     {
-        public static void InitializeDriver()
+        public static void InitializeDriver(string browserName)
         {
-            Driver.Driver.driver  = new ChromeDriver();
-            Driver.Driver.driver.Navigate().GoToUrl(Configuration.BASE_URL);
+             Driver.Driver.driver = null;
+            if (browserName.ToLower().Contains("chrome"))
+            {
+                Driver.Driver.driver = new ChromeDriver();
+                Driver.Driver.driver.Navigate().GoToUrl(Configuration.BASE_URL);
+            }
+            else if (browserName.ToLower().Contains("firefox"))
+            {
+                Driver.Driver.driver = new FirefoxDriver();
+                Driver.Driver.driver.Navigate().GoToUrl(Configuration.BASE_URL);
+            }
+            else if (browserName.ToLower().Contains("edge"))
+            {
+                var options = new EdgeOptions();
+                options.UseChromium = true;
+                Driver.Driver.driver = new EdgeDriver(options);
+                Driver.Driver.driver.Navigate().GoToUrl(Configuration.BASE_URL);
+            }
+
+           
+
         }
 
         public static void FieldLoginForm(string username,string password,string repeatPassword)

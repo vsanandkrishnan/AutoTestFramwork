@@ -104,6 +104,18 @@
           "lib/netstandard1.3/Microsoft.DotNet.InternalAbstractions.dll": {}
         }
       },
+      "Microsoft.Edge.SeleniumTools/3.141.2": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "[3.141.0]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Edge.SeleniumTools.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Edge.SeleniumTools.dll": {}
+        }
+      },
       "Microsoft.NET.Test.Sdk/16.9.4": {
         "type": "package",
         "dependencies": {
@@ -515,6 +527,12 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Selenium.Firefox.WebDriver/0.27.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.Firefox.WebDriver.targets": {}
         }
       },
       "Selenium.Support/3.141.0": {
@@ -1308,9 +1326,11 @@
           "DotNetSeleniumExtras.PageObjects": "3.11.0",
           "DotNetSeleniumExtras.PageObjects.Core": "3.12.0",
           "DotNetSeleniumExtras.WaitHelpers": "3.11.0",
+          "Microsoft.Edge.SeleniumTools": "3.141.2",
           "NUnit": "3.13.2",
           "NUnit.ConsoleRunner": "3.12.0",
           "ReportUnit": "1.2.1",
+          "Selenium.Firefox.WebDriver": "0.27.0",
           "Selenium.Support": "3.141.0",
           "Selenium.WebDriver": "3.141.0",
           "Selenium.WebDriver.ChromeDriver": "93.0.4577.1500"
@@ -1559,6 +1579,21 @@
         "lib/netstandard1.3/Microsoft.DotNet.InternalAbstractions.dll",
         "microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
         "microsoft.dotnet.internalabstractions.nuspec"
+      ]
+    },
+    "Microsoft.Edge.SeleniumTools/3.141.2": {
+      "sha512": "8wEND69I0C1IBqQ/+niwYAsY+tGZH8aHU2hxXGFbdy96t90TMbuxq9sQFIPbDXn0jB9VERs1otY5iOFRB+1o6g==",
+      "type": "package",
+      "path": "microsoft.edge.seleniumtools/3.141.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Microsoft.Edge.SeleniumTools.dll",
+        "lib/net40/Microsoft.Edge.SeleniumTools.dll",
+        "lib/net45/Microsoft.Edge.SeleniumTools.dll",
+        "lib/netstandard2.0/Microsoft.Edge.SeleniumTools.dll",
+        "microsoft.edge.seleniumtools.3.141.2.nupkg.sha512",
+        "microsoft.edge.seleniumtools.nuspec"
       ]
     },
     "Microsoft.NET.Test.Sdk/16.9.4": {
@@ -2393,6 +2428,19 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
+      ]
+    },
+    "Selenium.Firefox.WebDriver/0.27.0": {
+      "sha512": "HwCaTaa+snzkLF7ZVaxKSmdttKm+KXT7HOY8c1q8p9E7x05+WHqw5XaZjUGFytVT1+0FkgUoH/u/I+csPLeJAg==",
+      "type": "package",
+      "path": "selenium.firefox.webdriver/0.27.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.Firefox.WebDriver.targets",
+        "driver/geckodriver.exe",
+        "selenium.firefox.webdriver.0.27.0.nupkg.sha512",
+        "selenium.firefox.webdriver.nuspec"
       ]
     },
     "Selenium.Support/3.141.0": {
@@ -5154,11 +5202,13 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Microsoft.Edge.SeleniumTools >= 3.141.2",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "NUnit >= 3.13.2",
       "NUnit.ConsoleRunner >= 3.12.0",
       "NUnit3TestAdapter >= 3.17.0",
       "ReportUnit >= 1.2.1",
+      "Selenium.Firefox.WebDriver >= 0.27.0",
       "WebApplication >= 1.0.0",
       "coverlet.collector >= 3.0.2"
     ]
@@ -5206,6 +5256,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Microsoft.Edge.SeleniumTools": {
+            "target": "Package",
+            "version": "[3.141.2, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.9.4, )"
@@ -5225,6 +5279,10 @@
           "ReportUnit": {
             "target": "Package",
             "version": "[1.2.1, )"
+          },
+          "Selenium.Firefox.WebDriver": {
+            "target": "Package",
+            "version": "[0.27.0, )"
           },
           "coverlet.collector": {
             "target": "Package",

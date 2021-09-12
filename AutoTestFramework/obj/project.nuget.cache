@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TSgQEwHYExW9Dlm+11XUwSK/TBAchxxuTbQbgSsTAxpgTfBUGTYJ0LE6zHwgBllcKoUktXXAS0AatnMbBGRurw==",
+  "dgSpecHash": "eAsr9oyxe8+vaH0E5mEYbx485+PY+TxrO+TQCSQrOZQkh0KKijiL2cKE3RYrtxxThXzyPssGvLf793szooI3Sw==",
   "success": true,
   "projectFilePath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\WebApplication.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\dotnetseleniumextras.pageobjects.core\\3.12.0\\dotnetseleniumextras.pageobjects.core.3.12.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\AnandKrishnan\\.nuget\\packages\\microsoft.edge.seleniumtools\\3.141.2\\microsoft.edge.seleniumtools.3.141.2.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
@@ -15,6 +16,7 @@
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\nunit.consolerunner\\3.12.0\\nunit.consolerunner.3.12.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\reportunit\\1.2.1\\reportunit.1.2.1.nupkg.sha512",
+    "C:\\Users\\AnandKrishnan\\.nuget\\packages\\selenium.firefox.webdriver\\0.27.0\\selenium.firefox.webdriver.0.27.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\selenium.webdriver.chromedriver\\93.0.4577.1500\\selenium.webdriver.chromedriver.93.0.4577.1500.nupkg.sha512",
