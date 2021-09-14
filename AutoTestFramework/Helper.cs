@@ -6,6 +6,7 @@ using OpenQA.Selenium.Interactions;
 using System;
 using OpenQA.Selenium.Firefox;
 using Microsoft.Edge.SeleniumTools;
+using System.IO;
 
 namespace AutoTestFramework
 {
@@ -68,6 +69,18 @@ namespace AutoTestFramework
                    .Release()
                    .Build()
                    .Perform();
+        }
+
+        public static string FileReaderText(string path)
+        {
+            string[] lines = File.ReadAllLines(path);
+            string textLines = "";
+            foreach(var line in lines)
+            {
+                textLines += line+ " ";
+            }
+
+            return textLines;
         }
     }
 }
