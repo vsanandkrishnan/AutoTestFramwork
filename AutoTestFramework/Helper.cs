@@ -15,6 +15,8 @@ namespace AutoTestFramework
         public static void InitializeDriver(string browserName)
         {
              Driver.Driver.driver = null;
+
+            //Handling different browsers.
             if (browserName.ToLower().Contains("chrome"))
             {
                 Driver.Driver.driver = new ChromeDriver();
@@ -31,9 +33,7 @@ namespace AutoTestFramework
                 options.UseChromium = true;
                 Driver.Driver.driver = new EdgeDriver(options);
                 Driver.Driver.driver.Navigate().GoToUrl(Configuration.BASE_URL);
-            }
-
-           
+            }        
 
         }
 
@@ -47,6 +47,7 @@ namespace AutoTestFramework
             lsPost.LoginButton.Click();
         }
 
+        //Handling Explicit waits
         public static void WaitForElement (IWebDriver driver,IWebElement element, int seconds=10,bool throwException=false)
         {
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(seconds));
@@ -61,6 +62,7 @@ namespace AutoTestFramework
             jsExecutor.ExecuteScript(script, element);
         }
 
+        //Handling Actions class
         public static void MoveElement(Actions actions, IWebElement from, IWebElement to, int x = 0, int y = 0)
         {
             actions.ClickAndHold(from)
@@ -71,6 +73,7 @@ namespace AutoTestFramework
                    .Perform();
         }
 
+        //File reader text
         public static string FileReaderText(string path)
         {
             string[] lines = File.ReadAllLines(path);
