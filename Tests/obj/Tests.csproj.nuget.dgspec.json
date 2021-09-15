@@ -83,6 +83,12 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[93.0.4577.1500, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
             }
           },
           "imports": [
@@ -144,6 +150,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
             "Microsoft.Edge.SeleniumTools": {
               "target": "Package",
               "version": "[3.141.2, )"
@@ -151,26 +165,6 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.9.4, )"
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.13.2, )"
-            },
-            "NUnit.ConsoleRunner": {
-              "target": "Package",
-              "version": "[3.12.0, )"
-            },
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[3.17.0, )"
-            },
-            "ReportUnit": {
-              "target": "Package",
-              "version": "[1.2.1, )"
-            },
-            "Selenium.Firefox.WebDriver": {
-              "target": "Package",
-              "version": "[0.27.0, )"
             },
             "coverlet.collector": {
               "target": "Package",

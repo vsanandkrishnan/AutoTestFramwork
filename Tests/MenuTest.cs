@@ -1,41 +1,34 @@
-﻿using AutoTestFramework;
+using AutoTestFramework;
 using AutoTestFramework.Driver;
 using AutoTestFramework.UIElements;
-using Microsoft.Edge.SeleniumTools;
-using NUnit.Framework;
-using OpenQA.Selenium.Chrome;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Tests
 {
-    public class MenuBarTest
+    [TestClass]
+    public class MenuTest
     {
-        
-
-        [SetUp]
+        [TestInitialize]
         public void SetUp()
         {
             Helper.InitializeDriver("edge");
 
         }
 
-        [Test]
-        public void MenuTest()
+        [TestMethod]
+        public void MenuDown()
         {
             Menu menu = new Menu();
             var value = menu.TestCases.Displayed;
 
             Assert.IsTrue(value, "The elements are Not Displayed correctly!");
-
-            
-
         }
 
-        [TearDown]
+        [TestCleanup]
         public void TearDown()
         {
             Driver.driver.Quit();
 
         }
-
     }
 }

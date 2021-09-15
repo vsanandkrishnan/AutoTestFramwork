@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eAsr9oyxe8+vaH0E5mEYbx485+PY+TxrO+TQCSQrOZQkh0KKijiL2cKE3RYrtxxThXzyPssGvLf793szooI3Sw==",
+  "dgSpecHash": "K56qZrU9m6d4htUjhpsczdp47CP6CejZwHR7ShpzikVI/0HoElvSqZBCMHJsAItlBUq+KZM23Pvd3J1/jNl+Lw==",
   "success": true,
   "projectFilePath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\WebApplication.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\AnandKrishnan\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\dotnetseleniumextras.pageobjects\\3.11.0\\dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\dotnetseleniumextras.pageobjects.core\\3.12.0\\dotnetseleniumextras.pageobjects.core.3.12.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",

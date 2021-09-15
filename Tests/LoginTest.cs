@@ -1,23 +1,23 @@
-using AutoTestFramework;
+﻿using AutoTestFramework;
 using AutoTestFramework.Driver;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
-using System.Threading;
 
 namespace Tests
 {
+    [TestClass]
     public class LoginTest
     {
         IAlert alert;
 
-        [SetUp]
+        [TestInitialize]
         public void Initialize()
         {
             Helper.InitializeDriver("edge");
 
         }
 
-        [Test]
+        [TestMethod]
         public void ValidLogin()
         {
             NavigateTo.LoginFormThroughTheMenu();
@@ -30,7 +30,7 @@ namespace Tests
 
         }
 
-        [Test]
+        [TestMethod]
         public void InvalidLogin()
         {
             NavigateTo.LoginFormThroughTheMenu();
@@ -42,7 +42,7 @@ namespace Tests
             alert.Accept();
         }
 
-        [TearDown]
+        [TestCleanup]
         public void CleanUp()
         {
             Driver.driver.Quit();
