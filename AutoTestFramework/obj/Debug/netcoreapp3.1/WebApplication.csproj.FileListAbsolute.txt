@@ -19,4 +19,3 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\obj\Debu
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\obj\Debug\netcoreapp3.1\WebApplication.genruntimeconfig.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\bin\Debug\netcoreapp3.1\SeleniumExtras.WaitHelpers.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\bin\Debug\netcoreapp3.1\Microsoft.Edge.SeleniumTools.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\AutoTestFramework\obj\Debug\netcoreapp3.1\WebApplication.csproj.AssemblyReference.cache

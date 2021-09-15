@@ -85,5 +85,15 @@ namespace AutoTestFramework
 
             return textLines;
         }
+
+        //Xml Reader
+        public static void XmlReaderStarter()
+        {
+            string currentDirectory = Directory.GetCurrentDirectory();
+            int lastIndex = currentDirectory.IndexOf("bin");
+
+            string path = currentDirectory.Substring(0, lastIndex);
+
+        }
     }
 }
