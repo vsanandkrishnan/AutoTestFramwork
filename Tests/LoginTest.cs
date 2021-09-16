@@ -30,6 +30,7 @@ namespace Tests
 
         }
 
+        [Ignore]
         [TestMethod]
         public void InvalidLogin()
         {
