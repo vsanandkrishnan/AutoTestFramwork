@@ -1,37 +1,25 @@
-﻿using Newtonsoft.Json;
+﻿using APIApplication.JsonObjects;
+using Newtonsoft.Json;
 using RestSharp;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace APIApplication
 {
     public class HandleAPI
     {
         public static string BASE_URL = @"https://reqres.in/";
-        public static string END_POINT = @"/api/users?page=2";
+        public static string END_POINT_GET = @"/api/users?page=2";
 
         public ListOfUserDTO GetUser()
         {
             var restClient = new RestClient(BASE_URL);
-            var restRequest = new RestRequest(END_POINT, Method.GET);
-
+            var restRequest = new RestRequest(END_POINT_GET, Method.GET);
             restRequest.AddHeader("Accept", "application/json");
-
             restRequest.RequestFormat = DataFormat.Json;
-
-
-
             IRestResponse response = restClient.Execute(restRequest);
-
             var content = response.Content;
-
             var users = JsonConvert.DeserializeObject<ListOfUserDTO>(content);
-
             return users;
-
         }
+
     }
 }
