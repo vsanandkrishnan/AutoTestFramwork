@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Tests/1.0.0": {
         "dependencies": {
+          "APIApplication": "1.0.0",
           "MSTest.TestAdapter": "2.2.3",
           "MSTest.TestFramework": "2.2.3",
           "Microsoft.Edge.SeleniumTools": "3.141.2",
@@ -808,6 +809,11 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "APIApplication/1.0.0": {
+        "runtime": {
+          "APIApplication.dll": {}
+        }
+      },
       "WebApplication/1.0.0": {
         "dependencies": {
           "DotNetSeleniumExtras.PageObjects": "3.11.0",
@@ -824,6 +830,14 @@
         },
         "runtime": {
           "WebApplication.dll": {}
+        }
+      },
+      "RestSharp/106.12.0.0": {
+        "runtime": {
+          "RestSharp.dll": {
+            "assemblyVersion": "106.12.0.0",
+            "fileVersion": "106.12.0.0"
+          }
         }
       }
     }
@@ -1303,8 +1317,18 @@
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
     },
+    "APIApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "WebApplication/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestSharp/106.12.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

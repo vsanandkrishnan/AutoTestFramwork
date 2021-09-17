@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using APIApplication;
 
 namespace Tests
 {
@@ -11,6 +12,10 @@ namespace Tests
         [TestMethod]
         public void APIGetTest()
         {
+            var handleAPIGET = new HandleAPI();
+            var response=handleAPIGET.GetUser();
+            Assert.AreEqual(2, response.page);
+            Assert.AreEqual("Michael", response.data[0].first_name);
 
         }
     }

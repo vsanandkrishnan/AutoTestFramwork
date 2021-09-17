@@ -108,3 +108,7 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\obj\Debug\netcoreapp
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\obj\Debug\netcoreapp3.1\Tests.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\obj\Debug\netcoreapp3.1\Tests.pdb
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\obj\Debug\netcoreapp3.1\Tests.genruntimeconfig.cache
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\APIApplication.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\APIApplication.pdb
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\RestSharp.xml

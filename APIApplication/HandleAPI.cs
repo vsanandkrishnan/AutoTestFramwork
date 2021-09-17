@@ -11,7 +11,7 @@ namespace APIApplication
     public class HandleAPI
     {
         public static string BASE_URL = @"https://reqres.in/";
-        public static string END_POINT = @"/api/users?page";
+        public static string END_POINT = @"/api/users?page=2";
 
         public ListOfUserDTO GetUser()
         {

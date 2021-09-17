@@ -1151,6 +1151,15 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
+      "APIApplication/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/APIApplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/APIApplication.dll": {}
+        }
+      },
       "WebApplication/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -4889,6 +4898,11 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
+    "APIApplication/1.0.0": {
+      "type": "project",
+      "path": "../APIApplication/APIApplication.csproj",
+      "msbuildProject": "../APIApplication/APIApplication.csproj"
+    },
     "WebApplication/1.0.0": {
       "type": "project",
       "path": "../AutoTestFramework/WebApplication.csproj",
@@ -4897,6 +4911,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "APIApplication >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.Edge.SeleniumTools >= 3.141.2",
@@ -4932,6 +4947,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\APIApplication\\APIApplication.csproj": {
+              "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\APIApplication\\APIApplication.csproj"
+            },
             "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\WebApplication.csproj": {
               "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\WebApplication.csproj"
             }

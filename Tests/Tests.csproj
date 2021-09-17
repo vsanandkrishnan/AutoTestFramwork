@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\APIApplication\APIApplication.csproj" />
     <ProjectReference Include="..\AutoTestFramework\WebApplication.csproj" />
   </ItemGroup>
 
