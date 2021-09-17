@@ -1,0 +1,10 @@
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\APIApplication.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\APIApplication.pdb
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\RestSharp.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\RestSharp.xml
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.csproj.CoreCompileInputs.cache
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.csproj.CopyComplete
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.pdb
