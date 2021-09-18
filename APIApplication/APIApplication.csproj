@@ -49,7 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HandleAPI.cs" />
-    <Compile Include="ListOfUserDTO.cs" />
+    <Compile Include="Helpers\APIHelper.cs" />
+    <Compile Include="JsonObjects\CreateUserResponse.cs" />
+    <Compile Include="JsonObjects\ListOfUserResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

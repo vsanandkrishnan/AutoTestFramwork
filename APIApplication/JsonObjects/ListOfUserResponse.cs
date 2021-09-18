@@ -21,7 +21,7 @@ namespace APIApplication
             public string text { get; set; }
         }
 
-        public partial class ListOfUserDTO
+        public partial class ListOfUserResponse
         {
             public int page { get; set; }
             public int per_page { get; set; }

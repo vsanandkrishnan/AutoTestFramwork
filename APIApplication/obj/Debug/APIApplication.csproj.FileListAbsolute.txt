@@ -8,4 +8,3 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\A
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.csproj.CopyComplete
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.pdb
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.csproj.AssemblyReference.cache

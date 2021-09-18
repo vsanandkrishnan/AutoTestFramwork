@@ -9,7 +9,7 @@ namespace APIApplication
         public static string BASE_URL = @"https://reqres.in/";
         public static string END_POINT_GET = @"/api/users?page=2";
 
-        public ListOfUserDTO GetUser()
+        public ListOfUserResponse GetUser()
         {
             var restClient = new RestClient(BASE_URL);
             var restRequest = new RestRequest(END_POINT_GET, Method.GET);
@@ -17,7 +17,7 @@ namespace APIApplication
             restRequest.RequestFormat = DataFormat.Json;
             IRestResponse response = restClient.Execute(restRequest);
             var content = response.Content;
-            var users = JsonConvert.DeserializeObject<ListOfUserDTO>(content);
+            var users = JsonConvert.DeserializeObject<ListOfUserResponse>(content);
             return users;
         }
 

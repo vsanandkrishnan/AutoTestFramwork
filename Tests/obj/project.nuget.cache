@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "124w2uK/9YXNYeK+fkSFNjZr8c4dzl1JPUuWy5h9brXR5NP9WOi4apIuLaGl9VdByJjCA+LrpvgUznJPOCte6Q==",
+  "dgSpecHash": "4/SWLJWOdCiolqV+vnFkA4dxMfSUAYqtC1a4I1g3GkWIPZQQdgTbKIgn1Qw9pfGGheOXoRuhzO0c84EZIxNcmQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\nunit.consolerunner\\3.12.0\\nunit.consolerunner.3.12.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\reportunit\\1.2.1\\reportunit.1.2.1.nupkg.sha512",
+    "C:\\Users\\AnandKrishnan\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\selenium.firefox.webdriver\\0.27.0\\selenium.firefox.webdriver.0.27.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
