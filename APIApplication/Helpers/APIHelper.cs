@@ -54,6 +54,29 @@ namespace APIApplication.Helpers
             return restRequest;
         }
 
+        /// <summary>
+        /// PUT Request API
+        /// </summary>
+        /// <param name="payLoad"></param>
+        /// <returns></returns>
+        public RestRequest CreatePutRequest(string payLoad)
+        {
+            var restRequest = new RestRequest(Method.PUT);
+            restRequest.AddHeader("Accept", "application/json");
+            restRequest.AddParameter("application/json", payLoad, ParameterType.RequestBody);
+            return restRequest;
+        }
+
+        /// <summary>
+        /// DELETE Request API
+        /// </summary>
+        /// <returns></returns>
+        public RestRequest CreateDeleteRequest()
+        {
+            var restRequest = new RestRequest(Method.DELETE);
+            restRequest.AddHeader("Accept", "application/json");
+            return restRequest;
+        }
 
         /// <summary>
         /// Getting the response

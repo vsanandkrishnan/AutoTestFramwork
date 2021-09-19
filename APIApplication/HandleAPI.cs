@@ -1,24 +1,41 @@
-﻿using APIApplication.JsonObjects;
+﻿using APIApplication.Helpers;
+using APIApplication.JsonObjects;
 using Newtonsoft.Json;
 using RestSharp;
 
 namespace APIApplication
 {
-    public class HandleAPI
+    public class HandleAPI<T>
     {
-        public static string BASE_URL = @"https://reqres.in/";
-        public static string END_POINT_GET = @"/api/users?page=2";
-
-        public ListOfUserResponse GetUser()
+        /// <summary>
+        /// Getting the users with the help of GET CALL
+        /// </summary>
+        /// <param name="endPoint"></param>
+        /// <returns></returns>
+        public ListOfUserResponse GetUser(string endPoint)
         {
-            var restClient = new RestClient(BASE_URL);
-            var restRequest = new RestRequest(END_POINT_GET, Method.GET);
-            restRequest.AddHeader("Accept", "application/json");
-            restRequest.RequestFormat = DataFormat.Json;
-            IRestResponse response = restClient.Execute(restRequest);
-            var content = response.Content;
-            var users = JsonConvert.DeserializeObject<ListOfUserResponse>(content);
-            return users;
+            var apiHelper = new APIHelper<ListOfUserResponse>();
+            var url = apiHelper.SetUrl(endPoint);
+            var request = apiHelper.CreateGetRequest();
+            var response = apiHelper.GetResponse(url, request);
+            var content = apiHelper.GetContent<ListOfUserResponse>(response);
+            return content;
+        }
+
+        /// <summary>
+        /// Create User POST Call Method
+        /// </summary>
+        /// <param name="endPoint"></param>
+        /// <param name="payLoad"></param>
+        /// <returns></returns>
+        public CreateUserResponse CreateUser(string endPoint,dynamic payLoad)
+        {
+            var apiHelper = new APIHelper<CreateUserResponse>();
+            var url = apiHelper.SetUrl(endPoint);
+            var request = apiHelper.CreatePostRequest(payLoad);
+            var response = apiHelper.GetResponse(url, request);
+            var content = apiHelper.GetContent<CreateUserResponse>(response);
+            return content;
         }
 
     }

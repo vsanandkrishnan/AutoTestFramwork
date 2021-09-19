@@ -12,12 +12,9 @@ namespace Tests
         public void APIGetTest()
         {
 
-            var apiHelper = new APIHelper<ListOfUserResponse>();
-            var url = apiHelper.SetUrl("api/users?page=2");
-            var request = apiHelper.CreateGetRequest();
-            var response = apiHelper.GetResponse(url, request);
-            var deserializedObject = apiHelper.GetContent<ListOfUserResponse>(response);
-            Assert.AreEqual("Michael", deserializedObject.data[0].first_name);
+            var handleAPI = new HandleAPI<ListOfUserResponse>();
+            var deserializedContent=handleAPI.GetUser("api/users?page=2");
+            Assert.AreEqual("Michael", deserializedContent.data[0].first_name);
         }
 
         [TestMethod]
@@ -26,11 +23,8 @@ namespace Tests
             string payLoad = @"{
                                 ""name"": ""morpheus"",
                                 ""job"": ""leader""}";
-            var apiHelper = new APIHelper<CreateUserResponse>();
-            var url = apiHelper.SetUrl("api/users");
-            var request = apiHelper.CreatePostRequest(payLoad);
-            var response = apiHelper.GetResponse(url, request);
-            var deserializeContent = apiHelper.GetContent<CreateUserResponse>(response);
+            var handleAPI = new HandleAPI<CreateUserResponse>();
+            var deserializeContent = handleAPI.CreateUser("api/users", payLoad);
             Assert.AreEqual("morpheus", deserializeContent.name);
             Assert.AreEqual("leader", deserializeContent.job);
         }
