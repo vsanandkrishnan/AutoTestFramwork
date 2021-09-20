@@ -1,0 +1,6 @@
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Helpers.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Helpers.pdb
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.csproj.AssemblyReference.cache
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.pdb

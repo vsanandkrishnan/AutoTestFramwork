@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIApplication", "APIApplic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reporter", "Reporter\Reporter.csproj", "{2861023C-11B0-4E87-991C-94034FD55A31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{F759F3B3-5FC8-42C3-8045-26B530A23A12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2861023C-11B0-4E87-991C-94034FD55A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2861023C-11B0-4E87-991C-94034FD55A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2861023C-11B0-4E87-991C-94034FD55A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F759F3B3-5FC8-42C3-8045-26B530A23A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F759F3B3-5FC8-42C3-8045-26B530A23A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F759F3B3-5FC8-42C3-8045-26B530A23A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F759F3B3-5FC8-42C3-8045-26B530A23A12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
