@@ -167,3 +167,6 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\S
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.csproj.AssemblyReference.cache
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Reporter.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Reporter.pdb
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Reporter.dll.config

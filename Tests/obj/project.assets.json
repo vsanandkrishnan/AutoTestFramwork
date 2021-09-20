@@ -3168,11 +3168,23 @@
       },
       "APIApplication/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "Reporter": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/APIApplication.dll": {}
         },
         "runtime": {
           "bin/placeholder/APIApplication.dll": {}
+        }
+      },
+      "Reporter/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Reporter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Reporter.dll": {}
         }
       },
       "WebApplication/1.0.0": {
@@ -10138,6 +10150,11 @@
       "type": "project",
       "path": "../APIApplication/APIApplication.csproj",
       "msbuildProject": "../APIApplication/APIApplication.csproj"
+    },
+    "Reporter/1.0.0": {
+      "type": "project",
+      "path": "../Reporter/Reporter.csproj",
+      "msbuildProject": "../Reporter/Reporter.csproj"
     },
     "WebApplication/1.0.0": {
       "type": "project",

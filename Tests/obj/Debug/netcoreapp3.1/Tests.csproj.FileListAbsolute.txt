@@ -5,10 +5,6 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\obj\Debug\netcoreapp
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\obj\Debug\netcoreapp3.1\Tests.AssemblyInfo.cs
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.CoreCompileInputs.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\testhost.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\WebApplication.deps.json
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\WebApplication.runtimeconfig.json
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\WebApplication.runtimeconfig.dev.json
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\WebApplication.exe
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\testhost.exe
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
@@ -181,3 +177,6 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\runtimes\win-x64\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\runtimes\win-x86\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\APIApplication.dll.config
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\Reporter.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\Reporter.pdb
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\Reporter.dll.config

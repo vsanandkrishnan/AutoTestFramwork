@@ -2199,8 +2199,16 @@
         }
       },
       "APIApplication/1.0.0": {
+        "dependencies": {
+          "Reporter": "1.0.0"
+        },
         "runtime": {
           "APIApplication.dll": {}
+        }
+      },
+      "Reporter/1.0.0": {
+        "runtime": {
+          "Reporter.dll": {}
         }
       },
       "WebApplication/1.0.0": {
@@ -3603,6 +3611,11 @@
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
     },
     "APIApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reporter/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
