@@ -7,8 +7,19 @@ using System.Threading.Tasks;
 
 namespace Pageobjectmodels
 {
-    public static class TestBase
+    public  class TestBase
     {
         public static  IWebDriver Driver { get; set; }
+
+        public TestBase()
+        {
+
+
+        }
+        public static void Initialization()
+        {
+            
+
+        }
     }
 }
