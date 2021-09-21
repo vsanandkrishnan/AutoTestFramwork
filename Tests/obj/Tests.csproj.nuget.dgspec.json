@@ -12,6 +12,9 @@
         "frameworks": {
           "net472": {
             "projectReferences": {
+              "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Helpers\\Helpers.csproj": {
+                "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Helpers\\Helpers.csproj"
+              },
               "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Reporter\\Reporter.csproj": {
                 "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Reporter\\Reporter.csproj"
               }
@@ -131,6 +134,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Helpers\\Helpers.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Helpers\\Helpers.csproj",
+        "projectName": "Helpers",
+        "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Helpers\\Helpers.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     },
     "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Reporter\\Reporter.csproj": {

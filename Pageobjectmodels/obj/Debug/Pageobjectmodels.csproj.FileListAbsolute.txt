@@ -1,0 +1,2 @@
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\obj\Debug\Pageobjectmodels.csproj.AssemblyReference.cache
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\obj\Debug\Pageobjectmodels.csproj.CoreCompileInputs.cache

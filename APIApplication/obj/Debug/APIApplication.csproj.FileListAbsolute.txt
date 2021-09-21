@@ -170,3 +170,5 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\A
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Reporter.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Reporter.pdb
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Reporter.dll.config
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Helpers.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Helpers.pdb

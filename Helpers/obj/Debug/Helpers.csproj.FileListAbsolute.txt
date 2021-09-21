@@ -1,6 +1,11 @@
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Helpers.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Helpers.pdb
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.csproj.AssemblyReference.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.pdb
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\RestSharp.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\RestSharp.xml
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.csproj.CopyComplete
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.csproj.AssemblyReference.cache

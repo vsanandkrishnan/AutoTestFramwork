@@ -3169,6 +3169,7 @@
       "APIApplication/1.0.0": {
         "type": "project",
         "dependencies": {
+          "Helpers": "1.0.0",
           "Reporter": "1.0.0"
         },
         "compile": {
@@ -3176,6 +3177,15 @@
         },
         "runtime": {
           "bin/placeholder/APIApplication.dll": {}
+        }
+      },
+      "Helpers/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Helpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Helpers.dll": {}
         }
       },
       "Reporter/1.0.0": {
@@ -10150,6 +10160,11 @@
       "type": "project",
       "path": "../APIApplication/APIApplication.csproj",
       "msbuildProject": "../APIApplication/APIApplication.csproj"
+    },
+    "Helpers/1.0.0": {
+      "type": "project",
+      "path": "../Helpers/Helpers.csproj",
+      "msbuildProject": "../Helpers/Helpers.csproj"
     },
     "Reporter/1.0.0": {
       "type": "project",

@@ -180,3 +180,5 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\Reporter.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\Reporter.pdb
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\Reporter.dll.config
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\Helpers.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Tests\bin\Debug\netcoreapp3.1\Helpers.pdb

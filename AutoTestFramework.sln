@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reporter", "Reporter\Report
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{F759F3B3-5FC8-42C3-8045-26B530A23A12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pageobjectmodels", "Pageobjectmodels\Pageobjectmodels.csproj", "{997BCCEA-D76F-4DF4-9020-1F282BCB922C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F759F3B3-5FC8-42C3-8045-26B530A23A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F759F3B3-5FC8-42C3-8045-26B530A23A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F759F3B3-5FC8-42C3-8045-26B530A23A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997BCCEA-D76F-4DF4-9020-1F282BCB922C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997BCCEA-D76F-4DF4-9020-1F282BCB922C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997BCCEA-D76F-4DF4-9020-1F282BCB922C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997BCCEA-D76F-4DF4-9020-1F282BCB922C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

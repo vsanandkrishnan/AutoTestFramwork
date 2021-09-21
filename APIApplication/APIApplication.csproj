@@ -431,7 +431,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HandleAPI.cs" />
-    <Compile Include="Helpers\APIHelper.cs" />
     <Compile Include="JsonObjects\CreateUserResponse.cs" />
     <Compile Include="JsonObjects\ListOfUserResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -445,6 +444,10 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Helpers\Helpers.csproj">
+      <Project>{f759f3b3-5fc8-42c3-8045-26b530a23a12}</Project>
+      <Name>Helpers</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Reporter\Reporter.csproj">
       <Project>{2861023c-11b0-4e87-991c-94034fd55a31}</Project>
       <Name>Reporter</Name>
