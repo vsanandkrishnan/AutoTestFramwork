@@ -18,6 +18,7 @@ namespace Pageobjectmodels
         }
         public static void Initialization()
         {
+            string browserName = "chrome";
             
 
         }
