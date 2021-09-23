@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EnvironmentConfiguration
 {
-    public class Configsetting
+    public  class Configsetting
     {
         public string Browser { get; set; }
         public string LogLevel { get; set; }

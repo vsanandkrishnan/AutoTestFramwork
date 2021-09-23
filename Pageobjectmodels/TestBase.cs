@@ -25,18 +25,23 @@ namespace Pageobjectmodels
         public static FirefoxOptions firefoxOptions;
         public static EdgeOptions edgeOptions;
 
+
         /// <summary>
         /// Initializing the browsers bases on the browser type passed through the settings file
         /// </summary>
         public static void Initialization()
         {
+            Settings.GetData();          
             string browserName = Settings.config.Browser.ToLower();
             string url = Settings.config.URL;
             string headless = Settings.config.Headless;
             if (browserName.Equals("chrome"))
             {
                 chromeOptions = new ChromeOptions();
-                chromeOptions.AddArgument(headless);
+                if (!headless.Equals(""))
+                {
+                    chromeOptions.AddArgument(headless);
+                }
                 Driver = new ChromeDriver(chromeOptions);
             }else if (browserName.Equals("firefox"))
             {
