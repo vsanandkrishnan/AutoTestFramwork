@@ -3,11 +3,11 @@ using Pageobjectmodels;
 using SeleniumExtras.PageObjects;
 namespace AutoTestFramework.UIElements
 {
-    public class HomePage
+    public class HomePage : TestBase
     {
         public HomePage()
         {           
-            PageFactory.InitElements(TestBase.Driver, this);
+            PageFactory.InitElements(Driver, this);
         }
 
         [FindsBy(How=How.CssSelector, Using = "h1.entry-title.page-title")]

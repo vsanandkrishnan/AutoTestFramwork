@@ -26,121 +26,49 @@
         "net472": {}
       }
     },
-    "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\WebApplication.csproj": {
-      "version": "1.0.0",
+    "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\EnvironmentConfiguration\\EnvironmentConfiguration.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\WebApplication.csproj",
-        "projectName": "WebApplication",
-        "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\WebApplication.csproj",
-        "packagesPath": "C:\\Users\\AnandKrishnan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\AnandKrishnan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
+        "projectUniqueName": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\EnvironmentConfiguration\\EnvironmentConfiguration.csproj",
+        "projectName": "EnvironmentConfiguration",
+        "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\EnvironmentConfiguration\\EnvironmentConfiguration.csproj"
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "DotNetSeleniumExtras.PageObjects": {
-              "target": "Package",
-              "version": "[3.11.0, )"
-            },
-            "DotNetSeleniumExtras.PageObjects.Core": {
-              "target": "Package",
-              "version": "[3.12.0, )"
-            },
-            "DotNetSeleniumExtras.WaitHelpers": {
-              "target": "Package",
-              "version": "[3.11.0, )"
-            },
-            "ExtentReports": {
-              "target": "Package",
-              "version": "[4.1.0, )"
-            },
-            "Microsoft.Edge.SeleniumTools": {
-              "target": "Package",
-              "version": "[3.141.2, )"
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.13.2, )"
-            },
-            "NUnit.ConsoleRunner": {
-              "target": "Package",
-              "version": "[3.12.0, )"
-            },
-            "ReportUnit": {
-              "target": "Package",
-              "version": "[1.2.1, )"
-            },
-            "Selenium.Firefox.WebDriver": {
-              "target": "Package",
-              "version": "[0.27.0, )"
-            },
-            "Selenium.Support": {
-              "target": "Package",
-              "version": "[3.141.0, )"
-            },
-            "Selenium.WebDriver": {
-              "target": "Package",
-              "version": "[3.141.0, )"
-            },
-            "Selenium.WebDriver.ChromeDriver": {
-              "target": "Package",
-              "version": "[93.0.4577.1500, )"
-            },
-            "coverlet.collector": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.0.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
-        }
+        "net472": {}
       }
     },
     "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Helpers\\Helpers.csproj": {
       "restore": {
         "projectUniqueName": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Helpers\\Helpers.csproj",
         "projectName": "Helpers",
-        "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Helpers\\Helpers.csproj"
+        "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Helpers\\Helpers.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj": {
+                "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj",
+        "projectName": "Pageobjectmodels",
+        "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\EnvironmentConfiguration\\EnvironmentConfiguration.csproj": {
+                "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\EnvironmentConfiguration\\EnvironmentConfiguration.csproj"
+              }
+            }
+          }
+        }
       },
       "frameworks": {
         "net472": {}
@@ -183,8 +111,11 @@
               "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\APIApplication\\APIApplication.csproj": {
                 "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\APIApplication\\APIApplication.csproj"
               },
-              "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\WebApplication.csproj": {
-                "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\AutoTestFramework\\WebApplication.csproj"
+              "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj": {
+                "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj"
+              },
+              "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Reporter\\Reporter.csproj": {
+                "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Reporter\\Reporter.csproj"
               }
             }
           }
@@ -219,9 +150,17 @@
               "target": "Package",
               "version": "[16.9.4, )"
             },
-            "RestSharp": {
+            "Selenium.Firefox.WebDriver": {
               "target": "Package",
-              "version": "[106.12.0, )"
+              "version": "[0.27.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
             },
             "coverlet.collector": {
               "target": "Package",

@@ -1,13 +1,14 @@
 ﻿using OpenQA.Selenium;
+using Pageobjectmodels;
 using SeleniumExtras.PageObjects;
 
 namespace AutoTestFramework.UIElements
 {
-    class TestCasesPage
+    public class TestCasesPage:TestBase
     {
         public TestCasesPage()
         {
-            PageFactory.InitElements(Driver.Driver.driver, this);
+            PageFactory.InitElements(Driver, this);
         }
 
         [FindsBy(How=How.XPath,Using = "//header[@class='mh-loop-header']/h3//a[contains(@href,'register-form')]")]

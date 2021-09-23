@@ -28,7 +28,7 @@ namespace Tests
         {
 
             var handleAPI = new HandleAPI<ListOfUserResponse>();
-            var deserializedContent=handleAPI.GetUser("api/users?page=2");
+            var deserializedContent = handleAPI.GetUser("api/users?page=2");
             Assert.AreEqual("Michael", deserializedContent.data[0].first_name);
         }
 
@@ -69,12 +69,10 @@ namespace Tests
         }
 
         [ClassCleanup]
-        public static void CleanUp() {
+        public static void CleanUp()
+        {
 
             Reporter.FlushReport();
-        }   
-
-
-
+        }
     }
 }

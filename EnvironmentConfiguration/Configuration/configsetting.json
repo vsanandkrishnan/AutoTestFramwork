@@ -1,4 +1,7 @@
 ﻿{
   "Browser": "Chrome",
-    "LogLevel": "All"
+  "LogLevel": "All",
+  "URL": "https://testing.todorvachev.com/",
+  "Headless": "--headless"
+
 }

@@ -1,13 +1,14 @@
 ﻿using OpenQA.Selenium;
+using Pageobjectmodels;
 using SeleniumExtras.PageObjects;
 
 namespace AutoTestFramework.UIElements
 {
-    public class Menu
+    public class Menu:TestBase
     {
         public Menu()
         {
-            PageFactory.InitElements(Driver.Driver.driver, this);
+            PageFactory.InitElements(Driver, this);
         }
 
         [FindsBy(How=How.CssSelector, Using ="//a[text()='Introduction']")]

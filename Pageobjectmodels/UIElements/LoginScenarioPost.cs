@@ -7,11 +7,11 @@ using System.Text;
 
 namespace AutoTestFramework.UIElements
 {
-    public class LoginScenarioPost
+    public class LoginScenarioPost:TestBase
     {
         public LoginScenarioPost()
         {
-            PageFactory.InitElements(TestBase.Driver, this);
+            PageFactory.InitElements(Driver, this);
 
         }
 

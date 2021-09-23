@@ -1,21 +1,21 @@
-using AutoTestFramework;
-using AutoTestFramework.Driver;
+﻿using AutoTestFramework;
 using AutoTestFramework.UIElements;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Pageobjectmodels;
 
 namespace Tests
 {
     [TestClass]
-    public class MenuTest
+    public class MenuTest :TestBase
     {
         [TestInitialize]
         public void SetUp()
         {
-            Helper.InitializeDriver("edge");
+            Initialization();
 
         }
 
-        
+
         [TestMethod]
         public void MenuDown()
         {
@@ -28,7 +28,7 @@ namespace Tests
         [TestCleanup]
         public void TearDown()
         {
-            Driver.driver.Quit();
+            Driver.Quit();
 
         }
     }

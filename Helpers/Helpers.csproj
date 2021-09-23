@@ -57,11 +57,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntryPoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceHelper\APIHelper.cs" />
+    <Compile Include="UIHelper\Messages.cs" />
     <Compile Include="UIHelper\UIHelper.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Pageobjectmodels\Pageobjectmodels.csproj">
+      <Project>{997BCCEA-D76F-4DF4-9020-1F282BCB922C}</Project>
+      <Name>Pageobjectmodels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
