@@ -124,6 +124,7 @@
   <ItemGroup>
     <Compile Include="Configuration.cs" />
     <Compile Include="Configurationfiles\Configsetting.cs" />
+    <Compile Include="Configurationfiles\UserDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings.cs" />
   </ItemGroup>
@@ -131,6 +132,9 @@
     <None Include="app.config" />
     <None Include="Configuration\configsetting.json" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Configuration\UserFiles.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
