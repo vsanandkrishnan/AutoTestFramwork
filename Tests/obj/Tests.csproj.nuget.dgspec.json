@@ -44,8 +44,8 @@
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj": {
-                "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj"
+              "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\TestBaseLibrary.csproj": {
+                "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\TestBaseLibrary.csproj"
               }
             }
           }
@@ -55,11 +55,11 @@
         "net472": {}
       }
     },
-    "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj": {
+    "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\TestBaseLibrary.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj",
-        "projectName": "Pageobjectmodels",
-        "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj",
+        "projectUniqueName": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\TestBaseLibrary.csproj",
+        "projectName": "TestBaseLibrary",
+        "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\TestBaseLibrary.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
@@ -111,8 +111,8 @@
               "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\APIApplication\\APIApplication.csproj": {
                 "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\APIApplication\\APIApplication.csproj"
               },
-              "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj": {
-                "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj"
+              "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\TestBaseLibrary.csproj": {
+                "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\TestBaseLibrary.csproj"
               },
               "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Reporter\\Reporter.csproj": {
                 "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Reporter\\Reporter.csproj"
@@ -130,6 +130,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "DotNetSeleniumExtras.PageObjects": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
             "ExtentReports": {
               "target": "Package",
               "version": "[4.1.0, )"

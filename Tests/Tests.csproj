@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0" />
     <PackageReference Include="ExtentReports" Version="4.1.0" />
     <PackageReference Include="Microsoft.Edge.SeleniumTools" Version="3.141.2" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
@@ -20,7 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\APIApplication\APIApplication.csproj" />
-    <ProjectReference Include="..\Pageobjectmodels\Pageobjectmodels.csproj" />
+    <ProjectReference Include="..\Pageobjectmodels\TestBaseLibrary.csproj" />
     <ProjectReference Include="..\Reporter\Reporter.csproj" />
   </ItemGroup>
 

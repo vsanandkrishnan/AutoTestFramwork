@@ -164,4 +164,3 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Reporter\obj\Debug\Reporte
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Reporter\obj\Debug\Reporter.csproj.CopyComplete
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Reporter\obj\Debug\Reporter.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Reporter\obj\Debug\Reporter.pdb
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Reporter\obj\Debug\Reporter.csproj.AssemblyReference.cache

@@ -7,7 +7,6 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Newtonso
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Pageobjectmodels.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\RestSharp.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\WebDriver.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\SeleniumExtras.PageObjects.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\EnvironmentConfiguration.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Pageobjectmodels.pdb
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Pageobjectmodels.dll.config
@@ -20,3 +19,4 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.csproj.CopyComplete
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.pdb
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Helpers.dll.config

@@ -90,11 +90,6 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\S
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\System.Text.Encoding.CodePages.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\System.Text.Encodings.Web.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\System.Threading.Tasks.Extensions.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Pageobjectmodels.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\WebDriver.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Microsoft.Edge.SeleniumTools.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\SeleniumExtras.PageObjects.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\EnvironmentConfiguration.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Helpers.pdb
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Reporter.pdb
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Reporter.dll.config
@@ -174,11 +169,7 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\S
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Pageobjectmodels.pdb
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Pageobjectmodels.dll.config
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\WebDriver.xml
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\EnvironmentConfiguration.pdb
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\EnvironmentConfiguration.dll.config
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.csproj.CopyComplete
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.pdb
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Helpers.dll.config

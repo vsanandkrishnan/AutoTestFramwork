@@ -20,6 +20,18 @@
           "lib/netstandard2.0/DnsClient.dll": {}
         }
       },
+      "DotNetSeleniumExtras.PageObjects/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
       "ExtentReports/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -3260,25 +3272,13 @@
       "Helpers/1.0.0": {
         "type": "project",
         "dependencies": {
-          "Pageobjectmodels": "1.0.0"
+          "TestBaseLibrary": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Helpers.dll": {}
         },
         "runtime": {
           "bin/placeholder/Helpers.dll": {}
-        }
-      },
-      "Pageobjectmodels/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "EnvironmentConfiguration": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Pageobjectmodels.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Pageobjectmodels.dll": {}
         }
       },
       "Reporter/1.0.0": {
@@ -3288,6 +3288,18 @@
         },
         "runtime": {
           "bin/placeholder/Reporter.dll": {}
+        }
+      },
+      "TestBaseLibrary/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "EnvironmentConfiguration": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TestBaseLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestBaseLibrary.dll": {}
         }
       }
     }
@@ -3361,6 +3373,21 @@
         "lib/netstandard1.3/DnsClient.xml",
         "lib/netstandard2.0/DnsClient.dll",
         "lib/netstandard2.0/DnsClient.xml"
+      ]
+    },
+    "DotNetSeleniumExtras.PageObjects/3.11.0": {
+      "sha512": "DJCLQ3beq1fzqpeQ5jTZwDqmzbOD2Xxsb/jCyShYam88CNwGGn5aBBqu4LVSj0sy0Ai76OauQQncYlC48VvQUQ==",
+      "type": "package",
+      "path": "dotnetseleniumextras.pageobjects/3.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+        "dotnetseleniumextras.pageobjects.nuspec",
+        "lib/net35/SeleniumExtras.PageObjects.dll",
+        "lib/net40/SeleniumExtras.PageObjects.dll",
+        "lib/net45/SeleniumExtras.PageObjects.dll",
+        "lib/netstandard2.0/SeleniumExtras.PageObjects.dll"
       ]
     },
     "ExtentReports/4.1.0": {
@@ -10168,30 +10195,31 @@
       "path": "../Helpers/Helpers.csproj",
       "msbuildProject": "../Helpers/Helpers.csproj"
     },
-    "Pageobjectmodels/1.0.0": {
-      "type": "project",
-      "path": "../Pageobjectmodels/Pageobjectmodels.csproj",
-      "msbuildProject": "../Pageobjectmodels/Pageobjectmodels.csproj"
-    },
     "Reporter/1.0.0": {
       "type": "project",
       "path": "../Reporter/Reporter.csproj",
       "msbuildProject": "../Reporter/Reporter.csproj"
+    },
+    "TestBaseLibrary/1.0.0": {
+      "type": "project",
+      "path": "../Pageobjectmodels/TestBaseLibrary.csproj",
+      "msbuildProject": "../Pageobjectmodels/TestBaseLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "APIApplication >= 1.0.0",
+      "DotNetSeleniumExtras.PageObjects >= 3.11.0",
       "ExtentReports >= 4.1.0",
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.Edge.SeleniumTools >= 3.141.2",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
-      "Pageobjectmodels >= 1.0.0",
       "Reporter >= 1.0.0",
       "Selenium.Firefox.WebDriver >= 0.27.0",
       "Selenium.Support >= 3.141.0",
       "Selenium.WebDriver >= 3.141.0",
+      "TestBaseLibrary >= 1.0.0",
       "coverlet.collector >= 3.0.2"
     ]
   },
@@ -10225,8 +10253,8 @@
             "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\APIApplication\\APIApplication.csproj": {
               "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\APIApplication\\APIApplication.csproj"
             },
-            "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj": {
-              "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\Pageobjectmodels.csproj"
+            "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\TestBaseLibrary.csproj": {
+              "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Pageobjectmodels\\TestBaseLibrary.csproj"
             },
             "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Reporter\\Reporter.csproj": {
               "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Reporter\\Reporter.csproj"
@@ -10244,6 +10272,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "DotNetSeleniumExtras.PageObjects": {
+            "target": "Package",
+            "version": "[3.11.0, )"
+          },
           "ExtentReports": {
             "target": "Package",
             "version": "[4.1.0, )"

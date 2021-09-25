@@ -9,11 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reporter", "Reporter\Report
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{F759F3B3-5FC8-42C3-8045-26B530A23A12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pageobjectmodels", "Pageobjectmodels\Pageobjectmodels.csproj", "{997BCCEA-D76F-4DF4-9020-1F282BCB922C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBaseLibrary", "Pageobjectmodels\TestBaseLibrary.csproj", "{997BCCEA-D76F-4DF4-9020-1F282BCB922C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvironmentConfiguration", "EnvironmentConfiguration\EnvironmentConfiguration.csproj", "{AC99300C-E2F0-4CE1-B194-F53689D1B786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{3DF5D024-0DCB-4B4E-B1B7-96899EC05504}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{3DF5D024-0DCB-4B4E-B1B7-96899EC05504}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2861023C-11B0-4E87-991C-94034FD55A31} = {2861023C-11B0-4E87-991C-94034FD55A31}
 		{2ADDF879-476E-45D1-B829-4815E5E658D9} = {2ADDF879-476E-45D1-B829-4815E5E658D9}

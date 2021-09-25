@@ -41,4 +41,3 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\o
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\obj\Debug\EnvironmentConfiguration.csproj.CopyComplete
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\obj\Debug\EnvironmentConfiguration.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\obj\Debug\EnvironmentConfiguration.pdb
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\obj\Debug\EnvironmentConfiguration.csproj.AssemblyReference.cache
