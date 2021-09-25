@@ -31,13 +31,14 @@ namespace EnvironmentConfiguration
     public static class XMlConfiguration
     {
         public static string projectPath = Environment.CurrentDirectory.Substring(0, Environment.CurrentDirectory.IndexOf("AutoTestFramework"));
-        public static string configSettingPath = @"AutoTestFramework\EnvironmentConfiguration\Configuration\UserFiles.xml";
+        public static string configSettingPath = @"AutoTestFramework\EnvironmentConfiguration\Configuration\";
         public static string configPath = Path.Combine(projectPath, configSettingPath);
 
-        public static UserDetails GetUserDetails()
+        public static UserDetails GetUserDetails(string fileName)
         {
+            var path=Path.Combine(configPath, fileName) + ".xml";
             XmlSerializer deserializer = new XmlSerializer(typeof(UserDetails));
-            TextReader reader = new StreamReader(configPath);
+            TextReader reader = new StreamReader(path);
             object obj = deserializer.Deserialize(reader);
             UserDetails XmlData = (UserDetails)obj;
             reader.Close();

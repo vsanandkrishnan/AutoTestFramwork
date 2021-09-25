@@ -58,6 +58,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntryPoint.cs" />
+    <Compile Include="Enums\ConfigFiles.cs" />
+    <Compile Include="Enums\JsonFiles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceHelper\APIHelper.cs" />
     <Compile Include="UIHelper\Messages.cs" />
