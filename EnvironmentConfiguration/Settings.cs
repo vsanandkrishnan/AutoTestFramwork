@@ -10,7 +10,7 @@ using System.Xml.Serialization;
 
 namespace EnvironmentConfiguration
 {
-    public  class Settings
+    public static class Settings
     {
         public static string projectPath = Environment.CurrentDirectory.Substring(0, Environment.CurrentDirectory.IndexOf("AutoTestFramework"));
         public static string configSettingPath = @"AutoTestFramework\EnvironmentConfiguration\Configuration\configsetting.json";
@@ -28,7 +28,7 @@ namespace EnvironmentConfiguration
         }
     }
 
-    public class XMlConfiguration
+    public static class XMlConfiguration
     {
         public static string projectPath = Environment.CurrentDirectory.Substring(0, Environment.CurrentDirectory.IndexOf("AutoTestFramework"));
         public static string configSettingPath = @"AutoTestFramework\EnvironmentConfiguration\Configuration\UserFiles.xml";

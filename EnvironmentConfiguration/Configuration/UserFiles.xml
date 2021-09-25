@@ -2,8 +2,8 @@
 <UserDetails>
 	<User>
 		<UserId>1</UserId>
-		<UserName>Anand</UserName>
-		<Password>Anand@007</Password>
+		<UserName>batchautomation</UserName>
+		<Password>Test@12345</Password>
 	</User>
 	<User>
 		<UserId>2</UserId>

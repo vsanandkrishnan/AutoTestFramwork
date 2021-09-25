@@ -447,7 +447,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LoginPage.cs" />
+    <Compile Include="Pages\HomePage.cs" />
+    <Compile Include="Pages\LoginPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestBase.cs" />
   </ItemGroup>
