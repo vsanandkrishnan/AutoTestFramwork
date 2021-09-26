@@ -55,7 +55,9 @@ namespace TestBaseLibrary
                 Driver = new EdgeDriver();
             }
 
+            Driver.Manage().Window.Maximize();
             Driver.Navigate().GoToUrl(url);
+            
         }
 
         
