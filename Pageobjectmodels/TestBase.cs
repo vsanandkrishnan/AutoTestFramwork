@@ -56,9 +56,20 @@ namespace TestBaseLibrary
             }
 
             Driver.Manage().Window.Maximize();
-            Driver.Navigate().GoToUrl(url);
+            Driver.Url=url;
             
         }
+
+        /// <summary>
+        /// Implicit Wait to the entire test page
+        /// </summary>
+        /// <param name="driver"></param>
+        /// <param name="seconds"></param>
+        public static void WaitExclusiveToAllElements(IWebDriver driver,int seconds)
+        {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(seconds);
+        }
+
 
         
     }
