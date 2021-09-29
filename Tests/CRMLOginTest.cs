@@ -30,6 +30,7 @@ namespace Tests
         public void SetUp()
         {
             Initialization();
+            WaitExclusiveToAllElements(Driver, 10);
             page = new LoginPage();
             foreach(var user in userDetails.userList)
             {

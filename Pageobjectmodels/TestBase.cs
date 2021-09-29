@@ -69,8 +69,7 @@ namespace TestBaseLibrary
         {
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(seconds);
         }
-
-
+        
         
     }
 }
