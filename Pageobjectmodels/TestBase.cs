@@ -3,6 +3,7 @@ using Microsoft.Edge.SeleniumTools;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +25,9 @@ namespace TestBaseLibrary
         public static ChromeOptions chromeOptions;
         public static FirefoxOptions firefoxOptions;
         public static EdgeOptions edgeOptions;
+
+
+        public static WebDriverWait wait;
 
 
         /// <summary>
@@ -70,6 +74,25 @@ namespace TestBaseLibrary
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(seconds);
         }
         
-        
+        /// <summary>
+        /// Waiting for an interval with a polling time
+        /// </summary>
+        /// <param name="totalTime"></param>
+        /// <param name="pollingTime"></param>
+        /// <param name="element"></param>
+        /// <param name="driver"></param>
+        /// <returns>Returns the webElement from the UI</returns>
+        public static IWebElement FluentWaitForInterval(int totalTime,int pollingTime,By element,IWebDriver driver)
+        {
+            wait = new WebDriverWait(driver, timeout: TimeSpan.FromSeconds(totalTime))
+            {
+                PollingInterval = TimeSpan.FromSeconds(pollingTime),
+            };
+            wait.IgnoreExceptionTypes(typeof(NoSuchElementException));
+
+            var foo = wait.Until(drv => drv.FindElement(element));
+
+            return foo;
+        }
     }
 }
