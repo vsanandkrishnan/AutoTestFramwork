@@ -39,9 +39,7 @@ namespace Tests
                     userName = user.UserName;
                     password = user.Password;
                 }
-            }
-
-            
+            }           
         }
 
         [TestMethod]
