@@ -103,5 +103,11 @@ namespace APIApplication.Helpers
             return dataObject;
 
         }
+
+        public string Serialize(dynamic content)
+        {
+            var  serializeObject = JsonConvert.SerializeObject(content, Formatting.Indented);
+            return serializeObject;
+        }
     }
 }

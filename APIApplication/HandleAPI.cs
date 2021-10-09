@@ -32,11 +32,14 @@ namespace APIApplication
         {
             var apiHelper = new APIHelper<CreateUserResponse>();
             var url = apiHelper.SetUrl(endPoint);
-            var request = apiHelper.CreatePostRequest(payLoad);
+            var jsonRequest = apiHelper.Serialize(payLoad);
+            var request = apiHelper.CreatePostRequest(jsonRequest);
             var response = apiHelper.GetResponse(url, request);
             var content = apiHelper.GetContent<CreateUserResponse>(response);
             return content;
         }
+
+
 
     }
 }
