@@ -431,6 +431,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HandleAPI.cs" />
+    <Compile Include="JsonObjects\CreateUserRequest.cs" />
     <Compile Include="JsonObjects\CreateUserResponse.cs" />
     <Compile Include="JsonObjects\ListOfUserResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
