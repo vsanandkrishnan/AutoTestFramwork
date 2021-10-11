@@ -2,6 +2,7 @@
 using APIApplication;
 using APIApplication.JsonObjects;
 using AventStack.ExtentReports;
+using Tests.TestData;
 
 namespace Tests
 {
@@ -32,23 +33,22 @@ namespace Tests
             Assert.AreEqual("Michael", deserializedContent.data[0].first_name);
         }
 
-        [DeploymentItem("TestData\\TestAPIData.csv"),
-            DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV","TestAPIData.csv","TestCase#csv",
-            DataAccessMethod.Sequential)]
         [TestMethod]
         public void APICreateTest()
         {
-            //string payLoad = @"{
-            //                    ""name"": ""morpheus"",
-            //                    ""job"": ""leader""}";
-
             var users = new CreateUserRequest();
-            users.name = TestContext.DataRow["name"].toString();
+            var values= CsvReaderData.CsvReaderMethod<CreateUserRequest>();
+            foreach(var val in values)
+            {
+                users.name = val.name;
+                users.job = val.job;
+            }
             var handleAPI = new HandleAPI<CreateUserResponse>();
-            var deserializeContent = handleAPI.CreateUser("api/users", payLoad);
-            Assert.AreEqual("morpheus", deserializeContent.name);
+            var deserializeContent = handleAPI.CreateUser("api/users", users);
+            
+            Assert.AreEqual(users.name, deserializeContent.name);
             Reporter.LogToReport(Status.Info, "First Name Does not Match");
-            Assert.AreEqual("leader", deserializeContent.job);
+            Assert.AreEqual(users.job, deserializeContent.job);
             Reporter.LogToReport(Status.Info, "Job Description Does Not Match");
         }
 
