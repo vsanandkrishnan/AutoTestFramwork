@@ -161,7 +161,6 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Reporter\bin\Debug\System.
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Reporter\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Reporter\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Reporter\obj\Debug\Reporter.csproj.CoreCompileInputs.cache
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Reporter\obj\Debug\Reporter.csproj.CopyComplete
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Reporter\obj\Debug\Reporter.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Reporter\obj\Debug\Reporter.pdb
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Reporter\obj\Debug\Reporter.csproj.AssemblyReference.cache

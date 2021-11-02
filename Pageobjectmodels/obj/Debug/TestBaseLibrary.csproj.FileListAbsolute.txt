@@ -92,8 +92,6 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug\WebDriver.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug\WebDriver.Support.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug\System.Text.Json.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug\EnvironmentConfiguration.pdb
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug\EnvironmentConfiguration.dll.config
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug\Crc32C.NET.xml
@@ -173,8 +171,6 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug\WebDriver.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug\WebDriver.Support.xml
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug\System.Text.Json.xml
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\obj\Debug\TestBaseLibrary.csproj.AssemblyReference.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\obj\Debug\TestBaseLibrary.csproj.CoreCompileInputs.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Pageobjectmodels\obj\Debug\TestBaseLibrary.csproj.CopyComplete

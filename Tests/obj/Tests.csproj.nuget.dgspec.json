@@ -30,7 +30,12 @@
       "restore": {
         "projectUniqueName": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\EnvironmentConfiguration\\EnvironmentConfiguration.csproj",
         "projectName": "EnvironmentConfiguration",
-        "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\EnvironmentConfiguration\\EnvironmentConfiguration.csproj"
+        "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\EnvironmentConfiguration\\EnvironmentConfiguration.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
       },
       "frameworks": {
         "net472": {}
@@ -78,7 +83,12 @@
       "restore": {
         "projectUniqueName": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Reporter\\Reporter.csproj",
         "projectName": "Reporter",
-        "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Reporter\\Reporter.csproj"
+        "projectPath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Reporter\\Reporter.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
       },
       "frameworks": {
         "net472": {}
@@ -190,7 +200,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

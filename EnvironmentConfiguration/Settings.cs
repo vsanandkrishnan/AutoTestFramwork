@@ -1,5 +1,6 @@
 ﻿using EnvironmentConfiguration.Configurationfiles;
 using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -16,15 +17,22 @@ namespace EnvironmentConfiguration
         public static string configSettingPath = @"AutoTestFramework\EnvironmentConfiguration\Configuration\configsetting.json";
         public static string configPath = Path.Combine(projectPath, configSettingPath);
         public static  Configsetting config;
+        public static StreamReader reader;
+
         public static void GetData()
         {
-            config = new Configsetting();
+            //config = new Configsetting();
 
-            ConfigurationBuilder builder = new ConfigurationBuilder();
-            builder.AddJsonFile(configPath);
+            //ConfigurationBuilder builder = new ConfigurationBuilder();
+            //builder.AddJsonFile(configPath);
 
-            IConfigurationRoot configuration = builder.Build();
-            configuration.Bind(config);
+            //IConfigurationRoot configuration = builder.Build();
+            //configuration.Bind(config);
+
+            reader = new StreamReader(configPath);
+            string jsonFile = reader.ReadToEnd();
+
+            config = JsonConvert.DeserializeObject<Configsetting>(jsonFile);          
         }
     }
 
