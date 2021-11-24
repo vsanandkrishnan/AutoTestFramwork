@@ -38,29 +38,35 @@ namespace TestBaseLibrary
             Settings.GetData();          
             string browserName = Settings.config.Browser.ToLower();
             string url = Settings.config.URL;
-            string headless = Settings.config.Headless;
+            bool headless = Settings.config.Headless;
             if (browserName.Equals("chrome"))
             {
                 chromeOptions = new ChromeOptions();
-                if (!headless.Equals(""))
+                if (headless.Equals(true))
                 {
-                    chromeOptions.AddArgument(headless);
+                    chromeOptions.AddArgument("headless");
                 }
                 Driver = new ChromeDriver(chromeOptions);
             }else if (browserName.Equals("firefox"))
             {
                 firefoxOptions = new FirefoxOptions();
-                firefoxOptions.AddArgument(headless);
+                if (headless.Equals(true))
+                {
+                    firefoxOptions.AddArgument("headless");
+                }
                 Driver = new FirefoxDriver();
             }else if (browserName.Equals("edge"))
             {
                 edgeOptions = new EdgeOptions();
-                edgeOptions.AddArgument(headless);
+                if (headless.Equals(true))
+                {
+                    edgeOptions.AddArgument("headless");
+                }
                 Driver = new EdgeDriver();
             }
 
             Driver.Manage().Window.Maximize();
-            Driver.Url=url;
+            Driver.Navigate().GoToUrl(url);
             
         }
 
@@ -93,6 +99,11 @@ namespace TestBaseLibrary
             var foo = wait.Until(drv => drv.FindElement(element));
 
             return foo;
+        }
+
+        public static void AddHeadlessParameter(object headlessOption)
+        {
+            
         }
     }
 }

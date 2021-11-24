@@ -11,6 +11,6 @@ namespace EnvironmentConfiguration
         public string Browser { get; set; }
         public string LogLevel { get; set; }
         public string URL { get; set; }
-        public string Headless { get; set; }
+        public bool Headless { get; set; }
     }
 }

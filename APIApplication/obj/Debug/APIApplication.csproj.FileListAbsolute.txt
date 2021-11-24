@@ -1,5 +1,3 @@
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.csproj.AssemblyReference.cache
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.csproj.CoreCompileInputs.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\mongocrypt.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\APIApplication.dll.config
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\APIApplication.dll
@@ -91,6 +89,7 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\S
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\System.Text.Encodings.Web.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Helpers.pdb
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Helpers.dll.config
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Reporter.pdb
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Reporter.dll.config
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Crc32C.NET.xml
@@ -169,7 +168,8 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\S
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.csproj.CopyComplete
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.csproj.AssemblyReference.cache
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.csproj.CoreCompileInputs.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.pdb
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\bin\Debug\Helpers.dll.config
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\APIApplication\obj\Debug\APIApplication.csproj.CopyComplete

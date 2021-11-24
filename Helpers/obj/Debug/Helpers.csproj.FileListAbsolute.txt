@@ -1,5 +1,5 @@
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\mongocrypt.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Helpers.dll.config
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Helpers.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Helpers.pdb
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Microsoft.Edge.SeleniumTools.dll
@@ -16,7 +16,7 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\WebDrive
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\EnvironmentConfiguration.pdb
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\EnvironmentConfiguration.dll.config
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.csproj.AssemblyReference.cache
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.csproj.CopyComplete
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\obj\Debug\Helpers.pdb
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\Helpers\bin\Debug\Helpers.dll.config

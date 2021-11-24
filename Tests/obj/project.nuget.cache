@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bndUMC97QJo/VPzobN17IEpYaiMH9ge+jX6p02dhJp6ra3Ndwd6vrya8yBo+xvtDB0y/1jEXYnmXZRbfi75dPw==",
+  "dgSpecHash": "edD8DObUiBgzalgzJweq5SEvnRsGyeXvqAIiMRl18ditQmTtsStGBF6EcsRcim+osXCPaxTxxK2Q2y/KPHB0lA==",
   "success": true,
   "projectFilePath": "C:\\Users\\AnandKrishnan\\source\\repos\\AutoTestFramework\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
@@ -106,6 +106,7 @@
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\selenium.firefox.webdriver\\0.27.0\\selenium.firefox.webdriver.0.27.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
+    "C:\\Users\\AnandKrishnan\\.nuget\\packages\\selenium.webdriver.chromedriver\\96.0.4664.4500\\selenium.webdriver.chromedriver.96.0.4664.4500.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\AnandKrishnan\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",

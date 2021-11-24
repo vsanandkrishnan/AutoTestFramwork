@@ -2,6 +2,6 @@
   "Browser": "Chrome",
   "LogLevel": "All",
   "URL": "https://classic.crmpro.com/",
-  "Headless": ""
+  "Headless": true
 
 }

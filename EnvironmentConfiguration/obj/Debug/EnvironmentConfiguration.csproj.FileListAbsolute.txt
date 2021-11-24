@@ -1,6 +1,7 @@
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\EnvironmentConfiguration.dll.config
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\EnvironmentConfiguration.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\EnvironmentConfiguration.pdb
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Json.Net.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
@@ -11,6 +12,7 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\b
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Newtonsoft.Json.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\System.Buffers.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\System.Memory.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\System.Numerics.Vectors.dll
@@ -29,6 +31,7 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\b
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Newtonsoft.Json.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\System.Buffers.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\System.Memory.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\System.Numerics.Vectors.xml
@@ -37,10 +40,7 @@ C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\b
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\System.Text.Json.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\System.ValueTuple.xml
+C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\obj\Debug\EnvironmentConfiguration.csproj.AssemblyReference.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\obj\Debug\EnvironmentConfiguration.csproj.CoreCompileInputs.cache
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\obj\Debug\EnvironmentConfiguration.dll
 C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\obj\Debug\EnvironmentConfiguration.pdb
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\obj\Debug\EnvironmentConfiguration.csproj.AssemblyReference.cache
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Json.Net.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Newtonsoft.Json.dll
-C:\Users\AnandKrishnan\source\repos\AutoTestFramework\EnvironmentConfiguration\bin\Debug\Newtonsoft.Json.xml
